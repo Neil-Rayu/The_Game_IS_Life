@@ -1,0 +1,2 @@
+# The_Game_IS_Life
+Simple, easy, and fun way to track progress of education, health, &amp; hobbies. The 'Game is Life' is a game styled work tracker, and helps promote sustainable learning. When creating innovations, working on the project is the most important; thus, wasting time looking for what to do is counterproductive. When everything is laid out, learning will become much more sustainable, and the future of students will be brighter.
