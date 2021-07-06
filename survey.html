@@ -1,0 +1,36 @@
+<html>
+<!-- import script.js; -->
+<head>
+	<link rel="stylesheet" href="style.css">
+	<script src="radarChart.js"></script>
+</head>
+
+<body>
+
+	<div class="dropdown">
+		<button class="dropbtn">Choose where you want to go!</button>
+        <div class="dropdown-content">
+          <a href="index.html">Home</a>
+          <a href="Radar Chart/radarChart.html">Your Radar Chart!</a>
+          <a href="Progress Tree/progressTree.html">Your Progress Tree!</a>
+        </div>
+      </div>
+      <h1>Enter your Activity here!</h1>
+		<div class = "form">
+			<label>What activity would you like to log?</label>
+			<input name="Activity" id="activity">
+			<label>What aspect of your health does this activity fall under?</label>
+			<select id="aspect">
+				<option value="Mental">Mental Health</option>
+				<option value="Intellectual">Intellectual Health</option>
+				<option value="Physical">Physical Health</option>
+				<option value="Personal development/Hobbies">Personal Development/Hobbies</option>
+				<option value="Social">Social Health</option>
+			</select>
+			<label>How many hours would you like to log?</label>
+			<input name="Hours" id="hour">
+      <button class = "submit" onclick = "getHour()">Submit</button>
+    </div>
+
+  </body>
+</html>
